@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# export GITHUB_CLIENT_ID='insert-github-client-id'
+# export GITHUB_CLIENT_SECRET='insert-github-client-secret'
+
+# export GITHUB_CLIENT_ID='dc5cb12d41e5a40b1b18'
+# export GITHUB_CLIENT_SECRET='1f82437522dd20923188b8ee18b1d873811eb183'
+# export FLASK_APP=app.py
+# export FLASK_DEBUG=1
+# export OAUTHLIB_INSECURE_TRANSPORT=1
+
+# echo %GITHUB_CLIENT_ID%
+set GITHUB_CLIENT_ID=c8617350aa2a1fdc67d9
+set GITHUB_CLIENT_SECRET=1f76830d00843a69e3e72c6fec9e116d012ddc1c
+set FLASK_APP=app.py
+set FLASK_DEBUG=1
+set OAUTHLIB_INSECURE_TRANSPORT=1
+
+flask run
